@@ -20,7 +20,7 @@ jim.last_name = 'jimbo'
 some_knowledge = avi.teach 
 
 steve.learn(some_knowledge)
-10.times { |i| jim.learn(avi.teach) }
+jim.learn(avi.teach)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 puts "#{jim.first_name} has learned knowledge: #{jim.knowledge.first} from from avi"
