@@ -23,4 +23,4 @@ steve.learn(some_knowledge)
 jim.learn(some_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
-puts "#{jim.first_name} has learned knowledge: #{jim.knowledge.first} from from avi"
+puts "#{jim.first_name} has learned knowledge: #{jim.knowledge} from from avi"
